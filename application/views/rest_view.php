@@ -9,9 +9,10 @@
 <body>
 	<div class="row" style="justify-content:center">
 		<div class="col-md-6 col-lg-4 col-sm-12">
-			<div class="table-responsive">
-				<table class="table table-hover">
-					<thead class="table-secondary"> 
+			<a href="<?php echo base_url('rest/insertData')?>" class="btn btn-primary"> Insert </a>
+			<div class="table-responsive" style="margin-top:2%">
+				<table class="table table-hover table-bordered">
+					<thead class="table-primary"> 
 						<tr> 
 							<th> Name </th>
 							<th> Email </th>
